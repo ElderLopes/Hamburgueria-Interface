@@ -7,6 +7,16 @@ const UserContext = createContext({})
 export const UserProvider = ({ children }) => {
   const [userData, setUserData] = useState({})
 
+  const putUserData = async userInfo => {
+    setUserData(userInfo)
+
+    await localStorage.setItem('Devburger:userData', JSON.stringify(userInfo))
+  }
+
+  const logout = async () => {
+    await localStorage.removeItem('Devburger:userData')
+  }
+
   useEffect(() => {
     const loadUserData = async () => {
       const clientInfo = await localStorage.getItem('Devburger:userData')
@@ -17,14 +27,8 @@ export const UserProvider = ({ children }) => {
     loadUserData()
   }, [])
 
-  const putUserData = async userInfo => {
-    setUserData(userInfo)
-
-    await localStorage.setItem('Devburger:userData', JSON.stringify(userInfo))
-  }
-
   return (
-    <UserContext.Provider value={{ putUserData, userData }}>
+    <UserContext.Provider value={{ putUserData, userData, logout }}>
       {children}
     </UserContext.Provider>
   )
