@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# Hamburgueria Interface
+Este é um projeto de interface para uma hamburgueria, desenvolvido utilizando HTML, CSS e JavaScript.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Funcionalidades
+ - Exibe um layout atraente e responsivo para uma página de uma hamburgueria.
+ - Apresenta informações sobre o menu, incluindo opções de hambúrgueres, acompanhamentos e bebidas.
+ - Permite ao usuário fazer pedidos ao adicionar itens ao carrinho de compras.
+ - Calcula automaticamente o valor total do pedido com base nos itens selecionados.
+ - Permite ao usuário finalizar o pedido, fornecendo suas informações de contato.
+ - Valida os campos de entrada para garantir que sejam preenchidos corretamente antes de enviar o pedido.
+ - Exibe uma mensagem de confirmação após o envio do pedido.
+## Como utilizar
+ 1. Faça o download ou clone o repositório em seu ambiente local.
+ 2. Abra o arquivo index.html em seu navegador preferido.
+ 3. Explore a interface da hamburgueria.
+ 4. Selecione os itens desejados no menu e adicione-os ao carrinho de compras.
+ 5. Verifique o valor total do pedido.
+ 6. Preencha as informações de contato no formulário de finalização do pedido.
+ 7. Clique no botão "Enviar Pedido" para enviar o pedido.
+ 8. Aguarde a exibição da mensagem de confirmação do pedido.
+## Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request com melhorias, correções de bugs ou novas funcionalidades.
